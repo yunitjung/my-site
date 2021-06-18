@@ -11,3 +11,33 @@
         animation-delay: 4s;
     }
 }
+
+@layer components {
+    .ease-300{
+        @apply transition ease-in-out duration-300;
+    }
+
+    .project {
+        @apply relative ;
+    }
+
+    .project:hover{
+        @apply opacity-10;
+    }
+
+    .project-tag {
+        @apply text-base text-white font-bold tracking-wide inline;
+    }
+
+    .project-title {
+        @apply text-lg text-white font-bold tracking-wide;
+    }
+
+    .project-overlay {
+        @apply absolute inset-0 rounded-md bg-red-400 opacity-100;
+    }
+
+    .project-tag-container {
+        @apply absolute bottom-5 left-5 space-x-2;
+    }
+}

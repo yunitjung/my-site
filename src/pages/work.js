@@ -9,79 +9,79 @@ const ProjectPage = () => {
                 <div className="flex-1 max-w-5xl">
                     <div className="grid grid-cols-2 grid-rows-3 gap-2 grid-flow-row-dense auto-rows-fr">  
                         <div className="relative">
-                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            <div className="project-overlay">
                             </div> 
-                            <div className="absolute bottom-5 left-5 space-x-2">
-                                <p className="text-lg text-white font-bold tracking-wide">Clickargo</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">Laravel</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">Lumen</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">Microservice</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">API</p>                                    
+                            <div className="project-tag-container">
+                                <p className="project-title">Clickargo</p>                                    
+                                <p className="project-tag">Laravel</p>                                    
+                                <p className="project-tag">Lumen</p>                                    
+                                <p className="project-tag">Microservice</p>                                    
+                                <p className="project-tag">API</p>                                    
                             </div>
-                            <div className="relative hover:opacity-10">
-                                <StaticImage src="../images/clickargo.png" className="inset-0 rounded-md shadow-lg"/>
+                            <div className="project ease-300">
+                                <StaticImage src="../images/clickargo.png" className="object-cover rounded-md shadow-lg"/>
                             </div>
                         </div>    
                         <div className="relative">
-                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            <div className="project-overlay">
                             </div> 
-                            <div className="absolute bottom-5 left-5 space-x-2">
-                                <p className="text-lg text-white font-bold tracking-wide">MML</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">Laravel</p>                                  
-                                <p className="text-md text-white font-bold tracking-wide inline">API</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">E-Commerce</p>                                    
+                            <div className="project-tag-container">
+                                <p className="project-title">MML</p>                                    
+                                <p className="project-tag">Laravel</p>                                  
+                                <p className="project-tag">API</p>                                    
+                                <p className="project-tag">E-Commerce</p>                                    
                             </div>
-                            <div className="relative hover:opacity-10">
+                            <div className="project ease-300">
                                 <StaticImage src="../images/mml.png" className="inset-0 rounded-md shadow-lg"/>
                             </div>
                         </div>
                         <div className="relative">
-                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            <div className="project-overlay">
                             </div> 
-                            <div className="absolute bottom-5 left-5 space-x-2">
-                                <p className="text-lg text-white font-bold tracking-wide">Fajri Raya</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">CodeIgniter</p>                                  
-                                <p className="text-md text-white font-bold tracking-wide inline">Accounting System</p>                                  
+                            <div className="project-tag-container">
+                                <p className="project-title">Fajri Raya</p>                                    
+                                <p className="project-tag">CodeIgniter</p>                                  
+                                <p className="project-tag">Accounting System</p>                                  
                             </div>
-                            <div className="relative hover:opacity-10">
+                            <div className="project ease-300">
                                 <StaticImage src="../images/fajri raya.png" className="inset-0 rounded-md shadow-lg"/>
                             </div>
                         </div> 
                         <div className="relative">
-                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            <div className="project-overlay">
                             </div> 
-                            <div className="absolute bottom-5 left-5 space-x-2">
-                                <p className="text-lg text-white font-bold tracking-wide">RS Sansani CRM</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">CodeIgniter</p>                                  
-                                <p className="text-md text-white font-bold tracking-wide inline">CRM</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">K-Means</p>                                    
+                            <div className="project-tag-container">
+                                <p className="project-title">RS Sansani CRM</p>                                    
+                                <p className="project-tag">CodeIgniter</p>                                  
+                                <p className="project-tag">CRM</p>                                    
+                                <p className="project-tag">K-Means</p>                                    
                             </div>
-                            <div className="relative hover:opacity-10">
+                            <div className="project ease-300">
                                 <StaticImage src="../images/rs sansani crm.png" className="inset-0 rounded-md shadow-lg"/>
                             </div>
                         </div> 
                         <div className="relative">
-                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            <div className="project-overlay">
                             </div> 
-                            <div className="absolute bottom-5 left-5 space-x-2">
-                                <p className="text-lg text-white font-bold tracking-wide">Twobe Store</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">CodeIgniter</p>                                  
-                                <p className="text-md text-white font-bold tracking-wide inline">E-Commerce</p>                                    
+                            <div className="project-tag-container">
+                                <p className="project-title">Twobe Store</p>                                    
+                                <p className="project-tag">CodeIgniter</p>                                  
+                                <p className="project-tag">E-Commerce</p>                                    
                             </div>
-                            <div className="relative hover:opacity-10">
+                            <div className="project ease-300">
                                 <StaticImage src="../images/twobestore.png" className="inset-0 rounded-md shadow-lg"/>
                             </div>
                         </div>      
                         <div className="relative">
-                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            <div className="project-overlay">
                             </div> 
-                            <div className="absolute bottom-5 left-5 space-x-2">
-                                <p className="text-lg text-white font-bold tracking-wide">Meoowmy</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">CodeIgniter</p>                                 
-                                <p className="text-md text-white font-bold tracking-wide inline">E-Commerce</p>                                    
-                                <p className="text-md text-white font-bold tracking-wide inline">Clustering</p>                                    
+                            <div className="project-tag-container">
+                                <p className="project-title">Meoowmy</p>                                    
+                                <p className="project-tag">CodeIgniter</p>                                 
+                                <p className="project-tag">E-Commerce</p>                                    
+                                <p className="project-tag">Clustering</p>                                    
                             </div>
-                            <div className="relative hover:opacity-10">
+                            <div className="project ease-300">
                                 <StaticImage src="../images/meoowmy.png" className="inset-0 rounded-md shadow-lg"/>
                             </div>
                         </div>       

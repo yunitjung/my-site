@@ -16,15 +16,15 @@ const Layout = ({pageTitle, children}) => {
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">
                     <Link to="/"
-                      className="text-white hover:text-indigo-800 px-3 py-2 rounded-md text-sm font-medium"
+                      className="text-white hover:text-indigo-800 ease-300 px-3 py-2 rounded-md text-sm font-medium"
                     >
                       Intro
                     </Link>
   
-                    <Link to="/about" className="text-white hover:text-indigo-800 px-3 py-2 rounded-md text-sm font-medium">
+                    <Link to="/about" className="text-white hover:text-indigo-800 ease-300 px-3 py-2 rounded-md text-sm font-medium">
                       About
                     </Link>
-                    <Link to="/work" className="text-white hover:text-indigo-800 px-3 py-2 rounded-md text-sm font-medium">
+                    <Link to="/work" className="text-white hover:text-indigo-800 ease-300 px-3 py-2 rounded-md text-sm font-medium">
                       Project
                     </Link>
                   </div>
@@ -108,17 +108,17 @@ const Layout = ({pageTitle, children}) => {
         <div className="fixed bottom-36 left-10 justify-center transform">
           <ul className="space-y-3">
             <li> 
-              <button  className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400">
+              <button  className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400 ease-300">
                 <a href="https://twitter.com/tjungyuni"><FaTwitter/></a>
               </button>
             </li>
             <li>
-              <button className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400">
+              <button className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400 ease-300">
                 <a href="https://github.com/yunitjung"><FaGithub/></a>
               </button>
             </li>
             <li> 
-              <button className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400">
+              <button className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400 ease-300">
                 <a href="https://www.linkedin.com/in/yuni-tjung-142544156/"><FaLinkedinIn/></a>
               </button>
             </li>
