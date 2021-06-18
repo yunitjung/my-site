@@ -108,17 +108,17 @@ const Layout = ({pageTitle, children}) => {
         <div className="fixed bottom-36 left-10 justify-center transform">
           <ul className="space-y-3">
             <li> 
-              <button  className="rounded-full bg-indigo-800 hover:bg-indigo-400 p-2 items-center text-indigo-500">
+              <button  className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400">
                 <a href="https://twitter.com/tjungyuni"><FaTwitter/></a>
               </button>
             </li>
             <li>
-              <button className="rounded-full bg-indigo-800 hover:bg-indigo-400 p-2 items-center text-indigo-500">
+              <button className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400">
                 <a href="https://github.com/yunitjung"><FaGithub/></a>
               </button>
             </li>
             <li> 
-              <button className="rounded-full bg-indigo-800 hover:bg-indigo-400 p-2 items-center text-indigo-500">
+              <button className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400">
                 <a href="https://www.linkedin.com/in/yuni-tjung-142544156/"><FaLinkedinIn/></a>
               </button>
             </li>
