@@ -18,7 +18,11 @@
     }
 
     .project {
-        @apply relative ;
+        @apply relative;
+    }
+
+    .project-image {
+        @apply min-h-full;
     }
 
     .project:hover{

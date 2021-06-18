@@ -8,7 +8,7 @@ const ProjectPage = () => {
             <div className="flex items-center justify-center pl-20 pb-20 pt-20">
                 <div className="flex-1 max-w-5xl">
                     <div className="grid grid-cols-2 grid-rows-3 gap-2 grid-flow-row-dense auto-rows-fr">  
-                        <div className="relative">
+                        <div className="relative flex">
                             <div className="project-overlay">
                             </div> 
                             <div className="project-tag-container">
@@ -19,10 +19,10 @@ const ProjectPage = () => {
                                 <p className="project-tag">API</p>                                    
                             </div>
                             <div className="project ease-300">
-                                <StaticImage src="../images/clickargo.png" className="object-cover rounded-md shadow-lg"/>
+                                <StaticImage src="../images/clickargo.png" className="object-cover project-image rounded-md shadow-lg"/>
                             </div>
                         </div>    
-                        <div className="relative">
+                        <div className="relative flex">
                             <div className="project-overlay">
                             </div> 
                             <div className="project-tag-container">
@@ -32,10 +32,10 @@ const ProjectPage = () => {
                                 <p className="project-tag">E-Commerce</p>                                    
                             </div>
                             <div className="project ease-300">
-                                <StaticImage src="../images/mml.png" className="inset-0 rounded-md shadow-lg"/>
+                                <StaticImage src="../images/mml.png" className="object-cover project-image rounded-md shadow-lg"/>
                             </div>
                         </div>
-                        <div className="relative">
+                        <div className="relative flex">
                             <div className="project-overlay">
                             </div> 
                             <div className="project-tag-container">
@@ -44,10 +44,10 @@ const ProjectPage = () => {
                                 <p className="project-tag">Accounting System</p>                                  
                             </div>
                             <div className="project ease-300">
-                                <StaticImage src="../images/fajri raya.png" className="inset-0 rounded-md shadow-lg"/>
+                                <StaticImage src="../images/fajri raya.png" className="object-cover project-image rounded-md shadow-lg"/>
                             </div>
                         </div> 
-                        <div className="relative">
+                        <div className="relative flex">
                             <div className="project-overlay">
                             </div> 
                             <div className="project-tag-container">
@@ -57,10 +57,10 @@ const ProjectPage = () => {
                                 <p className="project-tag">K-Means</p>                                    
                             </div>
                             <div className="project ease-300">
-                                <StaticImage src="../images/rs sansani crm.png" className="inset-0 rounded-md shadow-lg"/>
+                                <StaticImage src="../images/rs sansani crm.png" className="object-cover project-image rounded-md shadow-lg"/>
                             </div>
                         </div> 
-                        <div className="relative">
+                        <div className="relative flex">
                             <div className="project-overlay">
                             </div> 
                             <div className="project-tag-container">
@@ -69,10 +69,10 @@ const ProjectPage = () => {
                                 <p className="project-tag">E-Commerce</p>                                    
                             </div>
                             <div className="project ease-300">
-                                <StaticImage src="../images/twobestore.png" className="inset-0 rounded-md shadow-lg"/>
+                                <StaticImage src="../images/twobestore.png" className="object-cover project-image rounded-md shadow-lg"/>
                             </div>
                         </div>      
-                        <div className="relative">
+                        <div className="relative flex">
                             <div className="project-overlay">
                             </div> 
                             <div className="project-tag-container">
@@ -82,7 +82,7 @@ const ProjectPage = () => {
                                 <p className="project-tag">Clustering</p>                                    
                             </div>
                             <div className="project ease-300">
-                                <StaticImage src="../images/meoowmy.png" className="inset-0 rounded-md shadow-lg"/>
+                                <StaticImage src="../images/meoowmy.png" className="object-cover project-image rounded-md shadow-lg"/>
                             </div>
                         </div>       
                         {/* <div className="p-4 pr-10">
