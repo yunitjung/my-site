@@ -1,21 +1,111 @@
 import * as React from "react"
 import Layout from '../components/layout'
+import { StaticImage } from "gatsby-plugin-image"
 
 const ProjectPage = () => {
     return (
         <Layout pageTitle="Project">
-            <div className="flex items-center justify-center ml-20">
-                <div class="flex-1 max-w-5xl">
-                    <div class="grid grid-cols-2 grid-rows-3 gap-4 grid-flow-row-dense auto-rows-fr">
-                        <div class="p-4 pr-6">
-                            <h2 class="text-4xl font-semibold leading-10">Project 1</h2>
-                            <p class="text-gray-600">Tes Project 1 Descriptions here</p>
+            <div className="flex items-center justify-center pl-20 pb-20 pt-20">
+                <div className="flex-1 max-w-5xl">
+                    <div className="grid grid-cols-2 grid-rows-3 gap-2 grid-flow-row-dense auto-rows-fr">  
+                        <div className="relative">
+                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            </div> 
+                            <div className="absolute bottom-5 left-5 space-x-2">
+                                <p className="text-lg text-white font-bold tracking-wide">Clickargo</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">Laravel</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">Lumen</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">Microservice</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">API</p>                                    
+                            </div>
+                            <div className="relative hover:opacity-10">
+                                <StaticImage src="../images/clickargo.png" className="inset-0 rounded-md shadow-lg"/>
+                            </div>
+                        </div>    
+                        <div className="relative">
+                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            </div> 
+                            <div className="absolute bottom-5 left-5 space-x-2">
+                                <p className="text-lg text-white font-bold tracking-wide">MML</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">Laravel</p>                                  
+                                <p className="text-md text-white font-bold tracking-wide inline">API</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">E-Commerce</p>                                    
+                            </div>
+                            <div className="relative hover:opacity-10">
+                                <StaticImage src="../images/mml.png" className="inset-0 rounded-md shadow-lg"/>
+                            </div>
                         </div>
-                        <div class="p-4 pr-6 bg-white border-l-8 border-transparent rounded-md shadow-md space-y-2">
-                            
+                        <div className="relative">
+                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            </div> 
+                            <div className="absolute bottom-5 left-5 space-x-2">
+                                <p className="text-lg text-white font-bold tracking-wide">Fajri Raya</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">CodeIgniter</p>                                  
+                                <p className="text-md text-white font-bold tracking-wide inline">Accounting System</p>                                  
+                            </div>
+                            <div className="relative hover:opacity-10">
+                                <StaticImage src="../images/fajri raya.png" className="inset-0 rounded-md shadow-lg"/>
+                            </div>
+                        </div> 
+                        <div className="relative">
+                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            </div> 
+                            <div className="absolute bottom-5 left-5 space-x-2">
+                                <p className="text-lg text-white font-bold tracking-wide">RS Sansani CRM</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">CodeIgniter</p>                                  
+                                <p className="text-md text-white font-bold tracking-wide inline">CRM</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">K-Means</p>                                    
+                            </div>
+                            <div className="relative hover:opacity-10">
+                                <StaticImage src="../images/rs sansani crm.png" className="inset-0 rounded-md shadow-lg"/>
+                            </div>
+                        </div> 
+                        <div className="relative">
+                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            </div> 
+                            <div className="absolute bottom-5 left-5 space-x-2">
+                                <p className="text-lg text-white font-bold tracking-wide">Twobe Store</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">CodeIgniter</p>                                  
+                                <p className="text-md text-white font-bold tracking-wide inline">E-Commerce</p>                                    
+                            </div>
+                            <div className="relative hover:opacity-10">
+                                <StaticImage src="../images/twobestore.png" className="inset-0 rounded-md shadow-lg"/>
+                            </div>
+                        </div>      
+                        <div className="relative">
+                            <div className="absolute inset-0 rounded-md bg-red-400 opacity-100">
+                            </div> 
+                            <div className="absolute bottom-5 left-5 space-x-2">
+                                <p className="text-lg text-white font-bold tracking-wide">Meoowmy</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">CodeIgniter</p>                                 
+                                <p className="text-md text-white font-bold tracking-wide inline">E-Commerce</p>                                    
+                                <p className="text-md text-white font-bold tracking-wide inline">Clustering</p>                                    
+                            </div>
+                            <div className="relative hover:opacity-10">
+                                <StaticImage src="../images/meoowmy.png" className="inset-0 rounded-md shadow-lg"/>
+                            </div>
+                        </div>       
+                        {/* <div className="p-4 pr-10">
+                            <h2 className="text-4xl text-red-300 font-bold leading-10"><a href="https://muliamakmurlestari.com">Mulia Makmur Lestari</a></h2>
+                            <div className="flex space-x-4">
+                                <button className="text-blue-900 ring ring-blue-900 rounded-xl font-semibold p-2 mt-5">Laravel</button>
+                                <button className="text-blue-900 ring ring-blue-900 rounded-xl font-semibold p-2 mt-5">API</button>
+                                <button className="text-blue-900 ring ring-blue-900 rounded-xl font-semibold p-2 mt-5">E-Commerce</button>
+                                <button className="text-blue-900 ring ring-blue-900 rounded-xl font-semibold p-2 mt-5">B2B</button>
+                            </div>
                         </div>
+                        <div className="p-4 pr-10">
+                            <h2 className="text-4xl text-red-300 font-bold leading-10"><a href="https://clickargo.com">Clickargo</a></h2>
+                            <div className="flex space-x-4">
+                                <button className="text-blue-900 ring ring-blue-900 rounded-xl font-semibold p-2 mt-5">Laravel</button>
+                                <button className="text-blue-900 ring ring-blue-900 rounded-xl font-semibold p-2 mt-5">Lumen</button>
+                                <button className="text-blue-900 ring ring-blue-900 rounded-xl font-semibold p-2 mt-5">Microservice</button>
+                                <button className="text-blue-900 ring ring-blue-900 rounded-xl font-semibold p-2 mt-5">API</button>
+                                <button className="text-blue-900 ring ring-blue-900 rounded-xl font-semibold p-2 mt-5">Logistic</button>
+                                <button className="text-blue-900 ring ring-blue-900 rounded-xl font-semibold p-2 mt-5">B2B</button>
+                            </div>
+                        </div> */}
                     </div>
-                    
                 </div>
                 {/* <div className="w-1/2 pt-20 pl-20">
                     <h5>Project 1</h5>
