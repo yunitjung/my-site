@@ -5,9 +5,9 @@ import { StaticImage } from "gatsby-plugin-image"
 const ProjectPage = () => {
     return (
         <Layout pageTitle="Project">
-            <div className="flex items-center justify-center pl-20 pb-20 pt-20">
+            <div className="flex items-center justify-center mx-auto md:pl-20 md:pb-20 pb-10 md:pt-20">
                 <div className="flex-1 max-w-5xl">
-                    <div className="grid grid-cols-2 grid-rows-3 gap-2 grid-flow-row-dense auto-rows-fr">  
+                    <div className="grid grod-cols-1 lg:grid-cols-2 grid-rows-3 gap-2 grid-flow-row-dense auto-rows-fr">  
                         <div className="relative flex">
                             <div className="project-overlay">
                             </div> 
