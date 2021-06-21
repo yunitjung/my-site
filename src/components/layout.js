@@ -15,16 +15,13 @@ const Layout = ({pageTitle, children}) => {
               <div className="flex items-center">
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">
-                    <Link to="/"
-                      className="text-white hover:text-indigo-800 ease-300 px-3 py-2 rounded-md text-sm font-medium"
-                    >
+                    <Link to="/" className="menu">
                       Intro
                     </Link>
-  
-                    <Link to="/about" className="text-white hover:text-indigo-800 ease-300 px-3 py-2 rounded-md text-sm font-medium">
+                    <Link to="/about" className="menu">
                       About
                     </Link>
-                    <Link to="/work" className="text-white hover:text-indigo-800 ease-300 px-3 py-2 rounded-md text-sm font-medium">
+                    <Link to="/work" className="menu">
                       Project
                     </Link>
                   </div>
@@ -74,10 +71,10 @@ const Layout = ({pageTitle, children}) => {
               </div>
             </div>
           </div>
-          <div className="md:hidden" id="mobile-menu">
+          <div className="hidden md:hidden" id="mobile-menu">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link to ="/"
-                className="text-gray-700 hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300 hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
               >
                 Intro
               </Link>
@@ -90,7 +87,7 @@ const Layout = ({pageTitle, children}) => {
               </Link>
   
               <Link
-                to="/projects"
+                to="/work"
                 className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Projects
@@ -100,7 +97,7 @@ const Layout = ({pageTitle, children}) => {
         </nav>
         <main>
             <title>{pageTitle}</title>
-            <div className="container pl-32 pr-32 px-10 mt-20">
+            <div className="container lg:pl-32 lg:pr-32 lg:px-10 lg:mt-20 pl-10 pr-10 mt-10 md:pl-20 md:pr-10 md:pt-10">
                 <h1 className="font-bold w-full text-6xl pl-20 mb-10 text-white">{pageTitle}</h1>
                 {children}
             </div>
