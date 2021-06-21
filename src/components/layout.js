@@ -5,6 +5,8 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 
+const menuMobile = 'hidden';
+
 const Layout = ({pageTitle, children}) => {
     return (
         <div className="bg-indigo-500 min-h-screen max-w-screen">
@@ -98,11 +100,11 @@ const Layout = ({pageTitle, children}) => {
         <main>
             <title>{pageTitle}</title>
             <div className="container lg:pl-32 lg:pr-32 lg:px-10 lg:mt-20 pl-10 pr-10 mt-10 md:pl-20 md:pr-10 md:pt-10">
-                <h1 className="font-bold w-full text-6xl pl-20 mb-10 text-white">{pageTitle}</h1>
+                <h1 className="font-bold w-full text-5xl lg:text-6xl pl-3 mb-10 lg:pl-20 lg:mb-10 text-white">{pageTitle}</h1>
                 {children}
             </div>
         </main>
-        <div className="fixed bottom-36 left-10 justify-center transform">
+        <div className="hidden md:block fixed md:bottom-20 lg:bottom-36 md:left-5 lg:left-10 justify-center transform">
           <ul className="space-y-3">
             <li> 
               <button  className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400 ease-300">
@@ -121,7 +123,27 @@ const Layout = ({pageTitle, children}) => {
             </li>
           </ul>
         </div>
+        <div className="md:hidden pb-5 mx-auto transform">
+          <ul className="flex items-center justify-center space-x-10">
+            <li> 
+              <button  className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400 ease-300">
+                <a href="https://twitter.com/tjungyuni"><FaTwitter/></a>
+              </button>
+            </li>
+            <li>
+              <button className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400 ease-300">
+                <a href="https://github.com/yunitjung"><FaGithub/></a>
+              </button>
+            </li>
+            <li> 
+              <button className="rounded-full bg-indigo-800 hover:bg-red-300 hover:text-indigo-800 p-2 items-center text-indigo-400 ease-300">
+                <a href="https://www.linkedin.com/in/yuni-tjung-142544156/"><FaLinkedinIn/></a>
+              </button>
+            </li>
+          </ul>
         </div>
+
+      </div>
     )
 }
 
