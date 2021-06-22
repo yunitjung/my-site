@@ -1,8 +1,4 @@
-var plugins = [{
-      name: 'gatsby-plugin-image',
-      plugin: require('D:/project/my-site/node_modules/gatsby-plugin-image/gatsby-ssr'),
-      options: {"plugins":[]},
-    }]
+var plugins = []
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
