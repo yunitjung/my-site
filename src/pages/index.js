@@ -5,10 +5,15 @@ import Project from "../components/project";
 import TechStack from "../components/techStack";
 import { Divider } from "@chakra-ui/react";
 import Social from "../components/social";
+import Seo from "../components/seo";
 
 function IndexPage() {
   return (
     <Layout>
+      <Seo
+        title="yunitjung's portfolio 👋"
+        description="Portfolio Yuni Tjung"
+      />
       <Center mt={[5, 5, 10, 20]}>
         <VStack>
           <Text fontSize={{ base: "md", md: "md", lg: "xl" }}>

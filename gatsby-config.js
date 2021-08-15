@@ -7,5 +7,6 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-sharp",
     "@chakra-ui/gatsby-plugin",
+    "gatsby-plugin-react-helmet",
   ],
 };
