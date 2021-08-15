@@ -1,14 +1,31 @@
 import React from "react";
-import { Text, Center, Heading, VStack, Box } from "@chakra-ui/react";
+import {
+  Text,
+  Center,
+  Heading,
+  VStack,
+  Box,
+  useColorMode,
+  useColorModeValue,
+  IconButton,
+} from "@chakra-ui/react";
 import Layout from "../components/layouts";
 import Project from "../components/project";
 import TechStack from "../components/techStack";
 import { Divider } from "@chakra-ui/react";
 import Social from "../components/social";
+import { SunIcon, MoonIcon } from "@chakra-ui/icons";
 
 function IndexPage() {
+  const { toggleColorMode } = useColorMode();
+  const ToggleIcon = useColorModeValue(SunIcon, MoonIcon);
   return (
     <Layout>
+      <IconButton
+        aria-label="toggle dark mode"
+        icon={<ToggleIcon />}
+        onClick={toggleColorMode}
+      />
       <Center mt={20}>
         <VStack>
           <Text fontSize="xl">Hi there 👩‍💻, I'm </Text>
