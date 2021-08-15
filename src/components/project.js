@@ -4,7 +4,7 @@ import ProjectCard from "./projectCard";
 
 const Project = () => {
   return (
-    <SimpleGrid columns={2} spacing={5} mt={5}>
+    <SimpleGrid columns={{ base: 1, md: 1, lg: 2 }} spacing={5} mt={5}>
       <ProjectCard
         title="Clickargo"
         link="https://clickargo.com"

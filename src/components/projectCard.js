@@ -10,10 +10,10 @@ const ProjectCard = ({ title, projectContent, tag, link }) => {
       <Box p={5} shadow="md" borderWidth="1px" borderRadius="lg">
         <Text fontWeight="bold">{title}</Text>
         <Text>{projectContent}</Text>
-        <Flex mt={5} alignContent="end">
+        <Flex flex={1} mt={5} flexWrap="wrap" alignContent="space-around">
           {tag.map((element, i) => {
             return (
-              <Button key={i} mr={2} colorScheme="yellow" size="xs">
+              <Button key={i} mr={2} mt={2} colorScheme="yellow" size="xs">
                 {element}
               </Button>
             );

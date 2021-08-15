@@ -11,7 +11,9 @@ function IndexPage() {
     <Layout>
       <Center mt={20}>
         <VStack>
-          <Text fontSize="xl">Hi there 👩‍💻, I'm </Text>
+          <Text fontSize={{ base: "md", md: "md", lg: "xl" }}>
+            Hi there 👩‍💻, I'm{" "}
+          </Text>
           <Heading size="3xl">Yuni Tjung</Heading>
         </VStack>
       </Center>
