@@ -1,10 +1,9 @@
 import React from "react";
 import { ChakraProvider, Box } from "@chakra-ui/react";
-import theme from "../theme";
 
 function Layout({ children, variant = "regular" }) {
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider resetCSS="true">
       <Box
         mt={8}
         mb={8}

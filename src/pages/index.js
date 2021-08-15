@@ -17,14 +17,14 @@ import Social from "../components/social";
 import { SunIcon, MoonIcon } from "@chakra-ui/icons";
 
 function IndexPage() {
-  const { toggleColorMode } = useColorMode();
+  const { toggleColorMode: toggleMode } = useColorMode();
   const ToggleIcon = useColorModeValue(SunIcon, MoonIcon);
   return (
     <Layout>
       <IconButton
         aria-label="toggle dark mode"
         icon={<ToggleIcon />}
-        onClick={toggleColorMode}
+        onClick={toggleMode}
       />
       <Center mt={20}>
         <VStack>
