@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, SimpleGrid } from "@chakra-ui/react";
+import { SimpleGrid } from "@chakra-ui/react";
 import ProjectCard from "./projectCard";
 
 const Project = () => {
