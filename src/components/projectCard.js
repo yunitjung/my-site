@@ -7,7 +7,13 @@ const ProjectCard = ({ title, projectContent, tag, link }) => {
       href={link}
       style={{ color: "inherit", textDecoration: "inherit" }}
     >
-      <Box p={5} shadow="md" borderWidth="1px" borderRadius="lg">
+      <Box
+        p={5}
+        shadow="md"
+        borderWidth="1px"
+        borderRadius="lg"
+        minH="200"
+      >
         <Text fontWeight="bold">{title}</Text>
         <Text>{projectContent}</Text>
         <Flex flex={1} mt={5} flexWrap="wrap" alignContent="space-around">
