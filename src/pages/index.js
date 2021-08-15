@@ -12,7 +12,7 @@ function IndexPage() {
     <Layout>
       <Seo
         title="yunitjung's portfolio 👋"
-        description="Portfolio Yuni Tjung"
+        description="A full-stack developer, available to hire for freelance project. If you need to create website, you can check my portfolio here."
       />
       <Center mt={[5, 5, 10, 20]}>
         <VStack>

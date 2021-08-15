@@ -26,6 +26,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keyword`,
+          content: `portfolio, javascript, typescript, react, laravel, full-stack developer, web developer, developer, MySQL, GraphQL`,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -47,11 +51,15 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: `Yuni Tjung`,
+          content: `yunitjung's portfolio 👋`,
         },
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: `https://pbs.twimg.com/profile_images/1209004837066571777/Yl--KN9r_400x400.jpg`,
         },
       ].concat(meta)}
     />
