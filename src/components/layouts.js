@@ -5,13 +5,7 @@ import theme from "../@chakra-ui/gatsby-plugin/theme";
 function Layout({ children }) {
   return (
     <ChakraProvider resetCSS="true" theme={theme}>
-      <Box
-        mt={8}
-        mb={8}
-        mx="auto"
-        maxW={["auto", "auto", "auto", "800px"]}
-        p={8}
-      >
+      <Box mb={8} mx="auto" maxW={["auto", "auto", "auto", "800px"]} p={8}>
         {children}
       </Box>
     </ChakraProvider>

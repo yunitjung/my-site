@@ -9,7 +9,7 @@ import Social from "../components/social";
 function IndexPage() {
   return (
     <Layout>
-      <Center mt={20}>
+      <Center mt={[5, 5, 10, 20]}>
         <VStack>
           <Text fontSize={{ base: "md", md: "md", lg: "xl" }}>
             Hi there 👩‍💻, I'm{" "}
